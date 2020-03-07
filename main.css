@@ -22,6 +22,41 @@ nav {
     background: #014ca2;
 }
 
+.dropbtn {
+    border: none;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    padding-top: 1rem;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #dadada;
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: #014ca2;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
 .navbar-toggler {
     display: block;
 }
