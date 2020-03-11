@@ -315,9 +315,6 @@ hr{
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
-    #navbar-brand {
-        color: green;
-    }
     .f-h1 {
         padding: 8rem 4rem 2rem 2rem;
         vertical-align: auto;
@@ -387,9 +384,6 @@ hr{
     }
 }
 @media screen and (max-width: 768px) {
-    #navbar-brand {
-        color: blue;
-    }
     .f-h1 {
         padding: 4rem 4rem 2rem 2rem;
         vertical-align: auto;
@@ -452,10 +446,6 @@ hr{
     }
 }   
 @media screen and (max-width: 576px) {
-    #navbar-brand {
-        color: yellow;
-    }
-    
     #sidebar, #left-col {
         padding: auto;
     }
@@ -490,8 +480,6 @@ hr{
         text-align: center;
     }
 }
-
-
 
 
 /* Extra small (xs) devices (portrait phones, less than 576px)
