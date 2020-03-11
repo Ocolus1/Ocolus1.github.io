@@ -11,6 +11,17 @@
     <title>Pawo Industries - Mobile web design services</title>
     <link rel="stylesheet" type="text/css" href="main.css"> 
     <script src="https://kit.fontawesome.com/9846bd7163.js" crossorigin="anonymous"></script>
+    <SCRIPT language=JavaScript>
+
+    var message = "This page is no longer active";
+
+    function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+    if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+    document.onmousedown = rtclickcheck;
+
+    </SCRIPT>
 </head>
 <body>
     <!-- Start Navbar -->
@@ -33,7 +44,7 @@
                             <a class="nav-link dropbtn">Portfolio</a>
                             <div class="dropdown-content">
                                 <a href="./template-1/index.htm" target="_blank">Template 1</a>
-                                <a href="#">Template 2</a>
+                                <a href="./template-2/index.htm">Template 2</a>
                                 <a href="#">Template 3</a>
                             </div>
                         </div>
