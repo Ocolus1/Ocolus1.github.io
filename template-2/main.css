@@ -262,6 +262,16 @@ nav a:hover {
     padding: .7rem;
 }
 
+#sidebar-img {
+    width: 25rem;
+    height: 20rem;
+}
+
+#left-col-img {
+    width: 25rem;
+    height: 22rem;
+}
+
 /* monthly newsletter  */
 .newsletter {
     background-color: #996A6A;
@@ -279,7 +289,7 @@ nav a:hover {
     font-size: 130%;
     font-weight: 700;
     margin-left: 2rem;
-    margin-top: .6rem;
+    padding-top: .6rem;
 }
 
 #nl-input {
@@ -351,9 +361,7 @@ hr{
         padding: 3rem 6rem;
         font-size: 250%;
     }
-    #sidebar {
-        padding-left: 4rem;
-    }
+    
     #inner_div_btn3 {
         margin-top: 3rem;
     }
@@ -369,7 +377,7 @@ hr{
         font-size: 100%;
         font-weight: 500;
         margin-left: 2rem;
-        margin-top: .6rem;
+        margin-top: -2rem;
     }
 
     #nl-input {
@@ -430,6 +438,30 @@ hr{
         font-size: 200%;
     }
 
+    #sidebar-img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    #left-col-img {
+        width: 100%;
+        height: 22rem;
+    }
+    
+    #sidebar, #left-col {
+        padding: 0;
+        margin: 1rem;
+        width: 100%;
+    }
+
+    #two-column {
+        color: white;
+        background-color: #2C1F1F;
+        width: 100%;
+        padding-bottom: 5rem;
+        margin: 0;
+    }
+
     #nl-btn {
         background-color: #98C367;
         padding: .5rem;
@@ -446,8 +478,50 @@ hr{
     }
 }   
 @media screen and (max-width: 576px) {
+    .f-h1 {
+        padding: 3rem 4rem 2rem 2rem;
+        vertical-align: auto;
+        font-size: 200%;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .f-div {
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        color: black;
+        margin: 5rem 0rem 1rem 0rem;
+        opacity: .2;
+    } 
+
+    #home-p2 {
+        padding: 3rem 6rem;
+        font-size: 200%;
+    }
+
+    #sidebar-img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    #left-col-img {
+        width: 100%;
+        height: 22rem;
+    }
+    
     #sidebar, #left-col {
-        padding: auto;
+        padding: 0;
+        margin: 1rem;
+        width: 100%;
+    }
+
+    #two-column {
+        color: white;
+        background-color: #2C1F1F;
+        width: 100%;
+        padding-bottom: 5rem;
+        margin: 0;
     }
 
     #nl-div {
@@ -479,7 +553,11 @@ hr{
         width: 95%;
         text-align: center;
     }
+
+
 }
+
+
 
 
 /* Extra small (xs) devices (portrait phones, less than 576px)
